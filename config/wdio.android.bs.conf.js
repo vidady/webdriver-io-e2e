@@ -45,12 +45,7 @@ config.services = [['browserstack', {
 
   },
   browserstackLocal: true
-}],[
-        'eslinter',
-        {
-            runnerType: 'unresolved'
-        }
-    ]];
+}]];
 
 const _config = config;
 export { _config as config };
