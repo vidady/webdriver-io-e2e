@@ -8,10 +8,8 @@ dotenv.config();
 // ============
 // BrowserStack Credentials
 // ============
-log('User Name is '+process.env.BROWSERSTACK_USER);
-log('Access Key is '+process.env.BROWSERSTACK_KEY);
-config.user = process.env.BROWSERSTACK_USER;
-config.key = process.env.BROWSERSTACK_KEY;
+config.user = process.env.BROWSERSTACK_USERNAME;
+config.key = process.env.BROWSERSTACK_ACCESS_KEY;
 
 // ============
 // Specs
