@@ -8,3 +8,6 @@ log
 local.log
 test-results.xml
 wdio-appium.log
+*.err
+*.out
+

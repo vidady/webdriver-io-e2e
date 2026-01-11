@@ -1,14 +1,17 @@
 import dotenv from 'dotenv';
 import path from 'path';
 import { config } from './wdio.shared.conf.js';
+import { log } from 'console';
 
 dotenv.config();
 
 // ============
 // BrowserStack Credentials
 // ============
-config.user = 'vivek589';
-config.key = '89svysgYDv7VqST5tUcP';
+log('User Name is '+process.env.BROWSERSTACK_USER);
+log('Access Key is '+process.env.BROWSERSTACK_KEY);
+config.user = process.env.BROWSERSTACK_USER;
+config.key = process.env.BROWSERSTACK_KEY;
 
 // ============
 // Specs
