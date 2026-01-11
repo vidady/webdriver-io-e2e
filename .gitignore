@@ -1,0 +1,10 @@
+node_modules
+allure-results
+dist
+allure-report
+junit-results
+logs
+log
+local.log
+test-results.xml
+wdio-appium.log
