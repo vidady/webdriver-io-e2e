@@ -10,4 +10,5 @@ test-results.xml
 wdio-appium.log
 *.err
 *.out
+.env
 
