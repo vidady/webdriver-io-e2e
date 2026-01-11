@@ -14,7 +14,8 @@
     "appium-uiautomator2-driver": "^6.7.8",
     "dotenv": "^17.2.3",
     "eslint": "^9.39.2",
-    "eslint-plugin-wdio": "^9.23.0"
+    "eslint-plugin-wdio": "^9.23.0",
+    "wdio-eslinter-service": "^0.0.4"
   },
   "scripts": {
     "wdio": "wdio run ./config/wdio.android.bs.conf.js",
